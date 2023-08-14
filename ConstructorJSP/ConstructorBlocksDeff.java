@@ -4,7 +4,7 @@ class Gpy{
 		System.out.println("Good Day");
 	}
 	public Gpy() {
-		this("Anurag Love Kajol");//man lo tum ko isko iske baad me karna hi to iske baad 
+		this("Anurag hi");//man lo tum ko isko iske baad me karna hi to iske baad 
 		
 		System.out.println("Confusion is ok while Larnig");
 	}
