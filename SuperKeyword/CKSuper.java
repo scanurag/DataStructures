@@ -5,10 +5,10 @@ class Hf{
 		System.out.println("hi anurag kya kar rahe ho!");
 	}
 	public  Hf(String name) {
-		System.out.println("hi beta kayse ho");
+		System.out.println("hi ");
 	}
 	public void j() {
-		System.out.println("Anura udrna nhi chahiye jade ");
+		System.out.println("Anura  ");
 	}
 }
 class Cpe extends Hf{
@@ -19,7 +19,7 @@ class Cpe extends Hf{
 	}
 	public void j() {
 		super.j();
-		System.out.println("aur kisi ka mzak nhi udanna chahiye");
+		System.out.println("aur");
 	}
 }
 public class CKSuper {
