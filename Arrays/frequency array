@@ -1,0 +1,20 @@
+package Arrays;
+import java.util.*;
+public class FrequencyArray {
+public static void main(String[] args) {
+	int[] a= {1,2,1,2,1,5,7,7,7};
+	findNum(a);
+}
+public static void findNum(int[] a) {
+	HashMap<Integer,Integer> mp=new HashMap<>();
+	for(int i=0;i<a.length;i++) {
+		mp.put(a[i],mp.get(a[i])==null ?1:mp.get(a[i])+1);
+	}
+	for(int i=0; i<a.length;i++) {
+		if(mp.get(a[i])!=-1) {
+			System.out.println(a[i]+" "+mp.get(a[i]));
+			mp.put(a[i],-1);
+		}
+	}
+}
+}
